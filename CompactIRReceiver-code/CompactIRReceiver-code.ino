@@ -194,7 +194,7 @@ void loop() {
 
 void displaySDError() {
   display.clearDisplay();
-  display.setTextSize(1);
+  display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   int16_t x1, y1;
   uint16_t w, h;
